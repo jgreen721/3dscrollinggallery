@@ -1,0 +1,31 @@
+.app {
+  height: 100vh;
+  max-width: 85rem;
+  margin: 0 auto;
+  border: 2px solid black;
+  font-family: var(--mainFont);
+}
+
+.overlay-section {
+  height: 100vh;
+  /* border: 3px solid white; */
+  color: white;
+  padding: 3rem 4rem;
+  /* position: absolute; */
+}
+
+.sample-title {
+  font-size: 3.2rem;
+}
+
+.technology-list {
+  display: flex;
+  gap: 2rem;
+}
+
+.sample-description {
+  max-width: 425px;
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+  line-height: 1.85rem;
+}
